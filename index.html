@@ -1,34 +1,150 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-        <link rel="stylesheet" href="material-icons.css">
-        <link rel="stylesheet" href="mdl/material.css">
-        <script src="mdl/material.js"></script>
-    </head>
-    <body>
-    <div class="mdl-layout__container">
-        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
-            <div class="mdl-layout__drawer">
-                <span class="mdl-layout-title">Title</span>
-                <nav class="mdl-navigation">
-                    <a class="mdl-navigation__link" href="">Link</a>
-                    <a class="mdl-navigation__link" href="">Link</a>
-                    <a class="mdl-navigation__link" href="">Link</a>
-                    <a class="mdl-navigation__link" href="">Link</a>
-                </nav>
-            </div>
-            <main class="mdl-layout__content mdl-color--grey-100">
-                <div class="mdl-grid">
-                    <div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
-                        <button class="mdl-cell mdl-cell--1-col mdl-button mdl-js-button mdl-js-ripple-effect " >
-                            <label class="" for="search">
-                                <i class="material-icons">search</i>
-                            </label>
-                        </button>
-                    </div>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="roboto.css">
+    <link rel="stylesheet" href="material-icons.css">
+    <link rel="stylesheet" href="mdl/material.css">
+    <script src="mdl/material.js"></script>
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header mdl-color--grey-100">
+        <header class="mdl-layout__header mdl-color--grey-100">
+            <div class="mdl-layout__header-row">
+                <div class="mdl-button mdl-js-button mdl-js-ripple-effect">
+                    <i class="material-icons">search</i>
                 </div>
-            </main>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Title</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+            </nav>
         </div>
-    </body>
+        <main class="mdl-layout__content mdl-color--grey-100">
+            <div class="mdl-grid">
+                <section class="section-center mdl-cell mdl-cell--12-col">
+                    <div class="mdl-card mdl-cell mdl-cell--12-col mdl-shadow--2dp">
+                        <div class="about-section mdl-card__supporting-text">
+                            <h1>About Project Sunroof</h1>
+                            <h3 id="why-are-we-doing-this">
+                Why are we doing this?
+                                </h3>
+                            <figure>
+                                <img alt="Why are we doing this?" src="1-why.png">
+                            </figure>
+                            <p>
+                                As the price of installing solar has gotten less expensive, more homeowners are turning to it as a possible option for decreasing their energy bill. We want to make installing solar panels easy and understandable for anyone.
+                            </p>
+                            <p>
+                                Project Sunroof puts Google's expansive data in mapping and computing resources to use, helping calculate the best solar plan for you.
+                            </p>
+                        </div>
+                        <div class="about-section mdl-card__supporting-text">
+                            <h3 id="how-it-works">
+              How it works
+                                </h3>
+                            <figure>
+                                <img alt="Selecting a single house from Google Maps." src="2-how-works.png">
+                            </figure>
+                            <p>
+                                When you enter your address, Project Sunroof looks up your home in Google Maps and combines that information with other databases to create your personalized roof analysis.
+                            </p>
+                            <p>
+                                Don't worry: Project Sunroof doesn't give the address to anybody else unless you ask it to.
+                            </p>
+                        </div>
+                        <div class="about-section mdl-card__supporting-text">
+                            <h3 id="customizing-for-your-roof">
+              Customizing for your roof
+                                </h3>
+                            <figure>
+                                <img alt="Customizing for Your Roof" src="3-customizing-roof.png">
+                            </figure>
+                            <p>
+                                Project Sunroof computes how much sunlight hits your roof in a year. It takes into account:
+                            </p>
+                            <ul>
+                                <li>Google's database of aerial imagery and maps</li>
+                                <li>3D modeling of your roof</li>
+                                <li>Shadows cast by nearby structures and trees</li>
+                                <li>All possible sun positions over the course of a year</li>
+                                <li>Historical cloud and temperature patterns that might affect solar energy production</li>
+                            </ul>
+                        </div>
+                        <div class="about-section mdl-card__supporting-text">
+                            <h3 id="choose-what-you-need">Choose what you need</h3>
+                            <figure>
+                                <img alt="Choose what you want to do" src="4a-choose-need.png">
+                            </figure>
+                            <p>
+                                Project Sunroof recommends an installation size to generate close to 100% of your electricity use, based on roof size, the amount of sun hitting the roof, and your electricity bill.
+                            </p>
+                            <p>
+                                Solar panel installations come in sizes measured in kilowatts (kW). When discussing solar installation with your providers, the recommended installation size (in kW) is a good starting point for a more fine-tuned estimate of total costs and benefits.
+                            </p>
+                            <figure>
+                                <img alt="Choose what you want to do" src="4b-choose-need.png">
+                            </figure>
+                            <p>
+                                We recommend an installation that covers less than 100% of your electrical usage because, in most areas, there is little financial benefit to producing more power than you can consume.
+                            </p>
+                            <p>
+                                Hint: Change the amount of your average electrical bill with the bill slider to get a more accurate, customized estimate for your house.
+                            </p>
+                        </div>
+                        <div class="about-section mdl-card__supporting-text">
+                            <h3 id="computing-your-savings">Computing your savings</h3>
+                            <figure>
+                                <img alt="Compute your savings" src="5a-computing-savings.png">
+                            </figure>
+                            <p>
+                                Project Sunroof uses current solar industry pricing data to run the numbers on leasing, taking a loan, or buying solar panels for your house to help you choose what's best for you.
+                            </p>
+                            <figure>
+                                <img alt="Compute your savings" src="5b-computing-savings.png">
+                            </figure>
+                            <p>
+                                Project Sunroof also compiles the following incentives to calculate your final cost:
+                            </p>
+                            <ul>
+                                <li>Federal and state tax credits</li>
+                                <li>Utility rebates</li>
+                                <li>Renewable energy credits and net metering</li>
+                            </ul>
+                            <p>
+                                <a href="../faq/#financial-considerations">
+                  Find out more about Project Sunroof's financial estimates
+                                    </a>
+                            </p>
+                        </div>
+                        <div class="about-section mdl-card__supporting-text">
+                            <h3 id="taking-next-steps">Taking next steps</h3>
+                            <figure class="align-paragraph">
+                                <img alt="Taking the next steps" src="6-taking-steps.png">
+                            </figure>
+                            <p>
+                                If you'd like to know more or to get started on going solar, Project Sunroof can put you in touch with solar providers who serve your area.
+                            </p>
+                            <p>
+                                Project Sunroof will only send information you provide to solar providers that you selected.
+                            </p>
+                        </div>
+                        <div class="about-section mdl-card__supporting-text">
+                            Still more questions? See our <a href="../faq/">FAQ</a>.
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+
 </html>
