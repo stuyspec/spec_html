@@ -1,35 +1,37 @@
-.mdl-layout--fixed-drawer.is-upgraded:not(.is-small-screen) > .mdl-layout__header:not(.fixed) {
+.mdl-layout--fixed-drawer.is-upgraded > .mdl-layout__header:not(.fixed) {
     margin-top: 16px;
-    margin-left: 262px;
-    width: calc(100% - 300px);
+    margin-left: 256px;
+    width: calc(100% - 272px);
 }
 
 .mdl-layout--fixed-drawer > .mdl-layout__header {
     transition: all 0.2s;
 }
 
-.mdl-layout--fixed-drawer:not(.is-small-screen) > .mdl-layout__header:not(.fixed) {
+.mdl-layout--fixed-drawer > .mdl-layout__header:not(.fixed) {
     margin-top: 16px;
-    margin-left: 262px;
+    margin-left: 256px;
     width: auto;
-    margin-right: 38px;
+    margin-right: 16px;
 }
 
-.mdl-layout--fixed-drawer.is-small-screen > .mdl-layout__header:not(.fixed) {
-    margin-top: 16px;
-    margin-left: 22px;
-    width: auto;
-    margin-right: 38px;
-}
+@media screen and (max-width: 1024px) {
+    .mdl-layout--fixed-drawer > .mdl-layout__header:not(.fixed) {
+        margin-top: 16px;
+        margin-left: 16px;
+        width: auto;
+        margin-right: 16px;
+    }
 
-.mdl-layout--fixed-drawer.is-small-screen > .mdl-layout__header.fixed {
-    margin-top: 0;
-    margin-left: 0;
-}
+    .mdl-layout--fixed-drawer > .mdl-layout__header.fixed {
+        margin-top: 0;
+        margin-left: 0;
+    }
 
-.mdl-layout--fixed-drawer.is-small-screen > .mdl-layout__header:not(.fixed) .mdl-layout__drawer-button {
-    top: 16px;
-    left: 22px;
+    .mdl-layout--fixed-drawer > .mdl-layout__header:not(.fixed) .mdl-layout__drawer-button {
+        top: 16px;
+        left: 22px;
+    }
 }
 
 .mdl-layout--fixed-drawer > .mdl-layout__header .mdl-layout__drawer-button {
